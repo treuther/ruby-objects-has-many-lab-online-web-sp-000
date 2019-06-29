@@ -3,12 +3,12 @@ attr_accessor :name
 
 def initialize(name)
   @name = name
-  songs = []
+  all = []
 end
 
 def add_song_by_name(name)
   song = Song.new(name)
-  @songs << song
+  @all << song
   song.artist = self
 end
 
