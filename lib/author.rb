@@ -9,8 +9,12 @@ def initialize(name)
   @@all << self
 end
 
+def self.all
+  @@all
+end
+
 def add_post(post)
-  @@all << post
+  @posts << post
   post.author = self
   @@post_count += 1
 end
