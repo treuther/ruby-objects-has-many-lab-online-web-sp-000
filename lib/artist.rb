@@ -15,4 +15,5 @@ end
 def all
   @all
 end
+
 end
