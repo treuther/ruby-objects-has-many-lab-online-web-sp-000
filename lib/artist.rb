@@ -12,4 +12,7 @@ def songs
   song.artist = self
 end
 
+def all
+  @all
+end
 end
