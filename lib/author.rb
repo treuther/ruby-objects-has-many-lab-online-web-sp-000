@@ -5,7 +5,7 @@ attr_accessor :name, :posts
 
 def initialize(name)
   @name = name
-  @posts = []
+  @@all = []
 end
 
 def add_post(post)
