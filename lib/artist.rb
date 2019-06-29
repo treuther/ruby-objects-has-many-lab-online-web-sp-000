@@ -6,7 +6,7 @@ def initialize(name)
   all = []
 end
 
-def songs(name)
+def songs
   song = Song.new(name)
   @all << song
   song.artist = self
